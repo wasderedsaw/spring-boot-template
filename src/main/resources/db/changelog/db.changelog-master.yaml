@@ -3,4 +3,5 @@ databaseChangeLog:
       id: 0
       author: victor-menin
       changes:
-        -
+        - sql:
+            create table test(id int primary key, name varchar);
